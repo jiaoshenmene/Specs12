@@ -24,5 +24,6 @@ Pod::Spec.new do |s|
   # s.osx.exclude_files = 'Classes/ios'  
   # s.public_header_files = 'Classes/**/*.h'  
   s.frameworks = 'Foundation' 
-  s.dependency 'AFNetworking' ,'JSPatch'
+  s.dependency 'AFNetworking'
+  s.dependency 'JSPatch'
 end  
