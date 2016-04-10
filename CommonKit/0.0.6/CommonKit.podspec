@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = "CommonKit"  
-  s.version          = "0.0.5"  
+  s.version          = "0.0.6"  
   s.summary          = "A marquee view used on iOS."  
   #s.description      = <<-DESC  
    #                    It is a marquee view used on iOS, which implement by Objective-C.  
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   
   # s.ios.exclude_files = 'Classes/osx'  
   # s.osx.exclude_files = 'Classes/ios'  
-  s.public_header_files = 'CommitKit_a/*.h' , "$(PODS_ROOT)/**/*.h"
+  s.public_header_files = 'CommitKit_a/*.{h,m}' , "$(PODS_ROOT)/**/*.h"
   s.frameworks = 'UIKit' 
-  #s.dependency 'AFNetworking'
+ # s.dependency 'AFNetworking'
 end  
